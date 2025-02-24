@@ -83,9 +83,9 @@ const heroData = {
 
 const ctaData = {
   imageUrl: '/assets/img/cta_img_1.jpg',
-  title: 'Meet The Team Support Medical Service.',
-  subtitle: 'For us, there are no minor aspects, because a quality',
-  buttonUrl: '/appointments',
+  title: 'Meet Our Amazing Medical Team.',
+  subtitle: 'Your health is our priority. Our expert team is committed to providing top-quality medical support and personalized care',
+  buttonUrl: '/contact',
   buttonText: 'Booking Now',
 };
 
