@@ -18,13 +18,13 @@ const poppins = Poppins({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'Medilo- Medical & Health NextJS Template',
-    template: '%s | Medilo- Medical & Health NextJS Template',
+    default: 'Biyama hospital',
+    template: '',
   },
-  description: 'Medilo- Medical & Health NextJS Template',
+  description: 'Biyama Hospital',
   openGraph: {
-    title: 'Medilo- Medical & Health NextJS Template',
-    description: 'Medilo- Medical & Health NextJS Template',
+    title: 'Biyama',
+    description: 'Biyama hospital',
     image: '/openGraphImage.jpg',
   },
 };

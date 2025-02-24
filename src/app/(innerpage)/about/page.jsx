@@ -7,141 +7,141 @@ import TeamSection from '@/app/Components/TeamSection';
 import React from 'react';
 
 const headingData = {
-    title: 'About Page',
-  };
-  
-  const aboutData = {
-    sectionSubtitle: 'OUR ABOUT US',
-    sectionTitle: 'More Than 26+ Years About Provide Medical.',
-    aboutText:
-      'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands, feel safe and comfortable in establishing.',
-    service:
-      "There are many variations of pass available this medical service the team <a href='#''>READ MORE +</a>",
-    experienceYears: '26+',
-    experienceTitle: 'Experience',
-    videoUrl: 'https://www.youtube.com/embed/rRid6GCJtgc',
-    videoText: 'How We Work',
-    iconboxes: [
-      {
-        imgUrl: '/assets/img/icons/about_icon_1.png',
-        title: 'Client Support',
-        subtitle: 'But must explain to you medical of and pain was.',
-      },
-      {
-        imgUrl: '/assets/img/icons/about_icon_2.png',
-        title: 'Doctor Support',
-        subtitle: 'But must explain to you medical of and pain was.',
-      },
-    ],
-  
-    btnUrl: '/about',
-    btnText: 'About More',
-    sectionImgUrl: '/assets/img/about_section_img_1.png',
-    headImgUrl: '/assets/img/about_img_7.jpeg',
-  };
-  
-  const counterData = [
+  title: 'About Page',
+};
+
+const aboutData = {
+  sectionSubtitle: 'ABOUT US',
+  sectionTitle: 'Over 26 Years of Excellence in Healthcare.',
+  aboutText:
+    'With over 26 years of experience, we are dedicated to providing high-quality medical care and support. Our commitment to patient-centered services ensures a safe, comfortable, and seamless healthcare experience.',
+  service:
+    "We strive to enhance the healthcare journey for both patients and doctors through cutting-edge technology and compassionate service. <a href='#''>READ MORE +</a>",
+  experienceYears: '26+',
+  experienceTitle: 'Experience',
+  // videoUrl: 'https://www.youtube.com/embed/rRid6GCJtgc',
+  // videoText: 'How We Work',
+  iconboxes: [
     {
-      iconSrc: '/assets/img/icons/counter_icon_1.png',
-      countTo: 567,
-      suffix: '+',
-      title: 'Active Clients',
+      imgUrl: '/assets/img/icons/about_icon_2.png',
+      title: 'Patient Support',
+      subtitle: 'Reliable assistance for all your healthcare needs',
+    },
+    // {
+    //   imgUrl: '/assets/img/icons/about_icon_2.png',
+    //   title: 'Doctor Support',
+    //   subtitle: 'But must explain to you medical of and pain was.',
+    // },
+  ],
+
+  btnUrl: '/about',
+  btnText: 'More About Us',
+  sectionImgUrl: '/assets/img/about_section_img_1.png',
+  headImgUrl: '/assets/img/about_img_1.jpg',
+};
+
+const counterData = [
+  {
+    iconSrc: '/assets/img/icons/counter_icon_1.png',
+    countTo: 567,
+    suffix: '+',
+    title: 'Active Clients',
+  },
+  {
+    iconSrc: '/assets/img/icons/counter_icon_2.png',
+    countTo: 23,
+    suffix: 'K+',
+    title: 'Team Support',
+  },
+  {
+    iconSrc: '/assets/img/icons/counter_icon_3.png',
+    countTo: 241,
+    suffix: '+',
+    title: 'Projects Completed',
+  },
+  {
+    iconSrc: '/assets/img/icons/counter_icon_4.png',
+    countTo: 16,
+    suffix: 'K+',
+    title: 'Award winner',
+  },
+];
+
+const teamData = {
+  subtitle: 'OUR TEAM MEMBER',
+  title: ' Meet Our Specialist This <br />Doctor Meeting',
+  sliderData: [
+    {
+      name: 'Dr. Norma Pedric',
+      profession: 'Neurologist',
+      imageUrl: '/assets/img/team_1.jpg',
+      link: '/doctors/doctor-details',
+      facebook: '/',
+      pinterest: '/',
+      twitter: '/',
+      instagram: '/',
     },
     {
-      iconSrc: '/assets/img/icons/counter_icon_2.png',
-      countTo: 23,
-      suffix: 'K+',
-      title: 'Team Support',
+      name: 'Dr. James Lewis',
+      profession: 'Neurologist',
+      imageUrl: '/assets/img/team_3.jpg',
+      link: '/doctors/doctor-details',
+      facebook: '/',
+      pinterest: '/',
+      twitter: '/',
+      instagram: '/',
     },
     {
-      iconSrc: '/assets/img/icons/counter_icon_3.png',
-      countTo: 241,
-      suffix: '+',
-      title: 'Projects Completed',
+      name: 'Dr. Sophia Anderson',
+      profession: 'Neurologist',
+      imageUrl: '/assets/img/team_4.jpg',
+      link: '/doctors/doctor-details',
+      facebook: '/',
+      pinterest: '/',
+      twitter: '/',
+      instagram: '/',
     },
     {
-      iconSrc: '/assets/img/icons/counter_icon_4.png',
-      countTo: 16,
-      suffix: 'K+',
-      title: 'Award winner',
+      name: 'Dr. Michael Thompson',
+      profession: 'Neurologist',
+      imageUrl: '/assets/img/team_5.jpg',
+      link: '/doctors/doctor-details',
+      facebook: '/',
+      pinterest: '/',
+      twitter: '/',
+      instagram: '/',
     },
-  ];
-  
-  const teamData = {
-    subtitle: 'OUR TEAM MEMBER',
-    title: ' Meet Our Specialist This <br />Doctor Meeting',
-    sliderData: [
-      {
-        name: 'Dr. Norma Pedric',
-        profession: 'Neurologist',
-        imageUrl: '/assets/img/team_1.jpg',
-        link: '/doctors/doctor-details',
-        facebook: '/',
-        pinterest: '/',
-        twitter: '/',
-        instagram: '/',
-      },
-      {
-        name: 'Dr. James Lewis',
-        profession: 'Neurologist',
-        imageUrl: '/assets/img/team_3.jpg',
-        link: '/doctors/doctor-details',
-        facebook: '/',
-        pinterest: '/',
-        twitter: '/',
-        instagram: '/',
-      },
-      {
-        name: 'Dr. Sophia Anderson',
-        profession: 'Neurologist',
-        imageUrl: '/assets/img/team_4.jpg',
-        link: '/doctors/doctor-details',
-        facebook: '/',
-        pinterest: '/',
-        twitter: '/',
-        instagram: '/',
-      },
-      {
-        name: 'Dr. Michael Thompson',
-        profession: 'Neurologist',
-        imageUrl: '/assets/img/team_5.jpg',
-        link: '/doctors/doctor-details',
-        facebook: '/',
-        pinterest: '/',
-        twitter: '/',
-        instagram: '/',
-      },
-      {
-        name: 'Dr. David Wilson',
-        profession: 'Neurologist',
-        imageUrl: '/assets/img/team_6.jpg',
-        link: '/doctors/doctor-details',
-        facebook: '/',
-        pinterest: '/',
-        twitter: '/',
-        instagram: '/',
-      },
-    ],
-  };
-  
-  const ctaData = {
-    videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc',
-    videoButtonText: 'WATCH VIDEO',
-    subtitle: 'OUR WATCH VIDEO',
-    title: 'Professional Medical Care Measure Medical.',
-    description:
-      'We are privileged to work with hundreds of future-thinking medial, including many of the world’s top hardware, software, and brands , feel safe and comfortable in establishing.',
-    buttonLink: '/contact',
-    buttonText: 'Video More',
-    brandImage: '/assets/img/medical_brand.png',
-  };
+    {
+      name: 'Dr. David Wilson',
+      profession: 'Neurologist',
+      imageUrl: '/assets/img/team_6.jpg',
+      link: '/doctors/doctor-details',
+      facebook: '/',
+      pinterest: '/',
+      twitter: '/',
+      instagram: '/',
+    },
+  ],
+};
+
+const ctaData = {
+  // videoLink: 'https://www.youtube.com/embed/rRid6GCJtgc',
+  videoButtonText: 'BIYAMA HOSPITAL',
+  // subtitle: 'OUR WATCH VIDEO',
+  title: 'Excellence in Professional Medical Care',
+  description:
+    'We are committed to delivering world-class medical solutions in partnership with leading global brands in healthcare technology. Our dedication to innovation ensures safe, reliable, and patient-focused services.',
+  buttonLink: '/contact',
+  buttonText: 'Contact Us',
+  brandImage: '/assets/img/medical_brand.png',
+};
 
 const page = () => {
-    return (
-        <div className='about-page-area'>
-        <Section
+  return (
+    <div className='about-page-area' style={{paddingBottom: "80px"}}>
+      <Section
         className={'cs_page_heading cs_bg_filed cs_center'}
-        backgroundImage="/assets/img/page_heading_bg.jpg"
+        backgroundImage='/assets/img/page_heading_bg.jpg'
       >
         <PageHeading data={headingData} />
       </Section>
@@ -149,10 +149,10 @@ const page = () => {
 
       {/* Start About Section */}
       <Section
-        topSpaceLg="70"
-        topSpaceMd="120"
-        bottomSpaceLg="80"
-        bottomSpaceMd="120"
+        topSpaceLg='70'
+        topSpaceMd='120'
+        bottomSpaceLg='80'
+        bottomSpaceMd='120'
         className={'cs_about cs_style_1 position-relative'}
       >
         <About data={aboutData} />
@@ -161,30 +161,30 @@ const page = () => {
 
       {/* Start Counter Section */}
 
-      <Section
+      {/* <Section
         bottomSpaceLg="80"
         bottomSpaceMd="120"
         className="cs_counter_area_2"
       >
         <CounterSection2 data={counterData} />
-      </Section>
+      </Section> */}
       {/* End Counter Section */}
 
       {/* Start CTA Section */}
       <Section
-        topSpaceLg="70"
-        topSpaceMd="110"
-        bottomSpaceLg="80"
-        bottomSpaceMd="120"
+        topSpaceLg='70'
+        topSpaceMd='110'
+        bottomSpaceLg='80'
+        bottomSpaceMd='120'
         className={'cs_cta cs_style_2 cs_blue_bg cs_bg_filed cs_center'}
-        backgroundImage="/assets/img/cta_bg_1.jpeg"
+        backgroundImage='/assets/img/cta_bg_1.jpeg'
       >
         <CtaSection1 data={ctaData} />
       </Section>
       {/* End CTA Section */}
 
       {/* Start Team Section */}
-      <Section
+      {/* <Section
         topSpaceLg="70"
         topSpaceMd="110"
         bottomSpaceLg="80"
@@ -195,12 +195,10 @@ const page = () => {
           variant={'cs_pagination cs_style_2'}
           data={teamData}
         />
-      </Section>
+      </Section> */}
       {/* End Team Section */}
-
-
-        </div>
-    );
+    </div>
+  );
 };
 
 export default page;

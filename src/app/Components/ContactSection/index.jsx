@@ -79,18 +79,6 @@ const ContactSection = ({ data, reverseOrder }) => {
                     />
                   </div>
                   <div className="col-lg-12">
-                    <input
-                      type="text"
-                      className="cs_form_field"
-                      placeholder="Type the below word"
-                    />
-                    <input
-                      type="button"
-                      className="cs_form_field cs_code_input"
-                      defaultValue="5RLOpW"
-                    />
-                  </div>
-                  <div className="col-lg-12">
                     <button
                       type="submit"
                       className="cs_btn cs_style_1 cs_color_1"

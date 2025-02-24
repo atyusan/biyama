@@ -19,49 +19,49 @@ const Header = ({ isTopBar, variant }) => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isSticky, setIsSticky] = useState();
   const menu = {
-    email: 'demo@example.com',
-    location: '15/K, Dhaka London City, LOT',
+    email: 'contact@biyamahospital.com',
+    location: 'No.12 Dr Boyi Bawa(Biyama) street, Wukari, Taraba state',
     logoUrl: '/assets/img/logo.svg',
     logoLink: '/',
     navItems: [
       {
         label: 'Home',
         href: '/',
-        subItems: [
-          { label: 'Main Home', href: '/' },
-          { label: 'Home V2', href: '/home-v2' },
-          { label: 'Home V3', href: '/home-v3' },
-        ],
+        // subItems: [
+        //   { label: 'Main Home', href: '/' },
+        //   { label: 'Home V2', href: '/home-v2' },
+        //   { label: 'Home V3', href: '/home-v3' },
+        // ],
       },
       { label: 'About', href: '/about' },
       {
-        label: 'Service',
+        label: 'Services',
         href: '/service',
-        subItems: [
-          { label: 'Service', href: '/service' },
-          { label: 'Service Details', href: '/service/service-details' },
-        ],
+        // subItems: [
+        //   { label: 'Service', href: '/service' },
+        //   { label: 'Service Details', href: '/service/service-details' },
+        // ],
       },
-      {
-        label: 'Blog',
-        href: '/blog',
-        subItems: [
-          { label: 'Blog List', href: '/blog' },
-          { label: 'Blog Details', href: '/blog/blog-details' },
-        ],
-      },
-      {
-        label: 'Pages',
-        href: '/',
-        subItems: [
-          { label: 'Appointments', href: '/appointments' },
-          { label: 'Doctors', href: '/doctors' },
-          { label: 'Doctor Details', href: '/doctors/doctor-details' },
-          { label: 'Timetable', href: '/timetable' },
-          { label: 'Portfolio', href: '/portfolio' },
-          { label: 'Contact', href: '/contact' },
-        ],
-      },
+      // {
+      //   label: 'Blog',
+      //   href: '/blog',
+      //   subItems: [
+      //     { label: 'Blog List', href: '/blog' },
+      //     { label: 'Blog Details', href: '/blog/blog-details' },
+      //   ],
+      // },
+      // {
+      //   label: 'Pages',
+      //   href: '/',
+      //   subItems: [
+      //     { label: 'Appointments', href: '/appointments' },
+      //     { label: 'Doctors', href: '/doctors' },
+      //     { label: 'Doctor Details', href: '/doctors/doctor-details' },
+      //     { label: 'Timetable', href: '/timetable' },
+      //     { label: 'Portfolio', href: '/portfolio' },
+      //     { label: 'Contact', href: '/contact' },
+      //   ],
+      // },
       { label: 'Contact', href: '/contact' },
     ],
     btnUrl: '/contact',

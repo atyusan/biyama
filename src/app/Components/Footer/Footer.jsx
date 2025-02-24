@@ -10,95 +10,27 @@ import {
   FaRegClock,
 } from 'react-icons/fa6';
 
-const data = {
-  backgroundImage: 'assets/img/footer_bg.jpg',
-  logo: '/assets/img/footer_logo.svg',
-  contact: [
-    {
-      icon: 'fa-regular fa-clock',
-      text: 'Open Hours of Government: <br /> Mon - Fri: 8.00 am. - 6.00 pm.',
-    },
-    {
-      icon: 'fa-solid fa-location-dot',
-      text: '13/A, Miranda Halim City.',
-    },
-    {
-      icon: 'fa-solid fa-phone',
-      text: '099 695 695 35',
-    },
-  ],
-  socialLinks: [
-    { href: '#', icon: 'fa-brands fa-facebook-f' },
-    { href: '#', icon: 'fa-brands fa-pinterest-p' },
-    { href: '#', icon: 'fa-brands fa-twitter' },
-    { href: '#', icon: 'fa-brands fa-instagram' },
-  ],
-  widgets: [
-    {
-      title: 'Service',
-      links: [
-        { href: '#', text: 'Why choose us' },
-        { href: '#', text: 'Our solutions' },
-        { href: '#', text: 'Partners' },
-        { href: '#', text: 'Core values' },
-        { href: '#', text: 'Our projects' },
-      ],
-    },
-    {
-      title: 'Quick Link',
-      links: [
-        { href: '#', text: 'Residents' },
-        { href: '#', text: 'Business' },
-        { href: '#', text: 'Online Service' },
-        { href: '#', text: 'Visiting' },
-        { href: '#', text: 'Employment' },
-      ],
-    },
-  ],
-  recentPosts: [
-    {
-      href: '/blog/blog-details',
-      image: 'assets/img/recent_post_1.png',
-      date: '23 jun 2024',
-      title: 'We round Solution york Blog',
-    },
-    {
-      href: '/blog/blog-details',
-      image: 'assets/img/recent_post_2.png',
-      date: '20 jun 2024',
-      title: 'The Medical Of This Working Health',
-    },
-  ],
-  copyrightText: 'Copyright © 2024 Medilo, All Rights Reserved.',
-  footerMenu: [
-    { href: 'about.html', text: 'About Us' },
-    { href: '#', text: 'Events' },
-    { href: 'blog.html', text: 'News' },
-    { href: 'service.html', text: 'Service' },
-  ],
-};
-
 const Footer = () => {
   const data = {
     backgroundImage: '/assets/img/footer_bg.jpg',
     logo: '/assets/img/footer_logo.svg',
     contactText:
-      'Open Hours of Government: <br /> Mon - Fri: 8.00 am. - 6.00 pm.',
-    contactText2: '13/A, Miranda Halim City.',
-    contactText3: '099 695 695 35',
+      'Open Hours: <br /> Mon - Fri: 8.00 am. - 6.00 pm.',
+    contactText2: 'No.12 Dr Boyi Bawa(Biyama) street, Wukari, Taraba state.',
+    contactText3: '+23490 695 695 35',
     facebookHref: '/',
     pinterestHref: '/',
     twitterHref: '/',
     instagramHref: '/',
     widgets: [
       {
-        title: 'Service',
+        title: 'Services',
         links: [
-          { href: '/service/service-details', text: 'Plastic Surgery' },
-          { href: '/service/service-details', text: 'Pharmacology' },
-          { href: '/service/service-details', text: 'Dental Care' },
-          { href: '/service/service-details', text: 'Dental Care' },
-          { href: '/service/service-details', text: 'Orthopedic' },
+          { href: '/', text: 'General healthcare' },
+          { href: '/', text: 'Patient Support' },
+          { href: '/', text: 'Specialist Consultation' },
+          { href: '/', text: 'NHIS accredited' },
+          // { href: '/service/service-details', text: 'Orthopedic' },
         ],
       },
       {
@@ -106,8 +38,8 @@ const Footer = () => {
         links: [
           { href: '/', text: 'Home' },
           { href: '/about', text: 'About Us' },
-          { href: '/service', text: 'Our Services' },
-          { href: '/portfolio', text: 'Our Portfolio' },
+          // { href: '/service', text: 'Our Services' },
+          // { href: '/portfolio', text: 'Our Portfolio' },
           { href: '/contact', text: 'Contact' },
         ],
       },
@@ -126,7 +58,7 @@ const Footer = () => {
         title: 'The Medical Of This Working Health',
       },
     ],
-    copyrightText: 'Copyright © 2024 Medilo, All Rights Reserved.',
+    copyrightText: 'Copyright © 2025 Biyama Hospital, All Rights Reserved.',
     footerMenu: [
       { href: '/about', text: 'About Us' },
       { href: '/', text: 'Events' },
@@ -231,7 +163,7 @@ const Footer = () => {
             </div>
           ))}
 
-          <div className="cs_footer_col">
+          {/* <div className="cs_footer_col">
             <div className="cs_footer_widget">
               <h2 className="cs_footer_widget_title">Recent Posts</h2>
               <ul className="cs_recent_post_list cs_mp_0">
@@ -252,7 +184,7 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -260,13 +192,13 @@ const Footer = () => {
         <div className="container">
           <div className="cs_footer_bottom_in">
             <p className="cs_footer_copyright mb-0">{data.copyrightText}</p>
-            <ul className="cs_footer_menu cs_mp_0">
+            {/* <ul className="cs_footer_menu cs_mp_0">
               {data.footerMenu.map((item, index) => (
                 <li key={index}>
                   <Link href={item.href}>{item.text}</Link>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
