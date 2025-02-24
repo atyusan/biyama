@@ -21,7 +21,7 @@ const Header = ({ isTopBar, variant }) => {
   const menu = {
     email: 'contact@biyamahospital.com',
     location: 'No.12 Dr Boyi Bawa(Biyama) street, Wukari, Taraba state',
-    logoUrl: '/assets/img/logo.svg',
+    logoUrl: '/assets/img/header-logo.png',
     logoLink: '/',
     navItems: [
       {
