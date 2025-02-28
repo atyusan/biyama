@@ -91,12 +91,12 @@ const ctaData = {
 
 const aboutData = {
   sectionSubtitle: 'ABOUT US',
-  sectionTitle: 'Over 26 Years of Excellence in Healthcare.',
+  sectionTitle: 'About 40 Years of Excellence in Healthcare.',
   aboutText:
-    'With over 26 years of experience, we are dedicated to providing high-quality medical care and support. Our commitment to patient-centered services ensures a safe, comfortable, and seamless healthcare experience.',
+    'Biyama Hospital Wukari was established in October 1984 and has been a trusted healthcare provider for 40 years. As a subsidiary of <b>Biyama Global Concept Limited</b>, we bring about 40 years of expertise in delivering high-quality medical care. Our commitment to patient-centered services ensures a safe, comfortable, and seamless healthcare experience.',
   service:
     "We strive to enhance the healthcare journey for both patients and doctors through cutting-edge technology and compassionate service. <a href='#''>READ MORE +</a>",
-  experienceYears: '26+',
+  experienceYears: '40+',
   experienceTitle: 'Experience',
   // videoUrl: 'https://www.youtube.com/embed/rRid6GCJtgc',
   // videoText: 'How We Work',

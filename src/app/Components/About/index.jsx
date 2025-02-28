@@ -60,7 +60,7 @@ const About = ({ data }) => {
                 SectionTitle={data.sectionTitle}
               />
 
-              <p className="cs_about_text">{data.aboutText}</p>
+              <p className="cs_about_text" dangerouslySetInnerHTML={{ __html: data.aboutText }}/>
               <div className="row cs_gap_y_30">
                 {data.iconboxes.map((box, index) => (
                   <div className="col-sm-6" key={index}>
